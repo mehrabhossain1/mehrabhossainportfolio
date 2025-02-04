@@ -8,7 +8,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       href: "https://www.nu.ac.bd",
     },
     date: "2021-Present",
-    location: "Barishal, Bangladesh",
+    location: "Barisal, Bangladesh",
     // description:
     //   "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
   },
@@ -19,18 +19,18 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       href: "http://www.gshac.gov.bd",
     },
     date: "2017-2019",
-    location: "Barishal",
+    location: "Barisal",
     // description:
     //   "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
   },
   {
     title: "Secondary School Certificate",
     organisation: {
-      name: "Barishal Zilla School",
+      name: "Barisal Zilla School",
       href: "https://bzsb.edu.bd/",
     },
     date: "2016-2017",
-    location: "Barishal",
+    location: "Barisal",
     // description:
     //   "Learned good values,dedication and disciplne. Played district cricket for 5 years.",
   },

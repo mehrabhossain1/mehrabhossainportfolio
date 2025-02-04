@@ -67,7 +67,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Barishal, Bangladesh
+              Barisal, Bangladesh
             </span>
           </FadeRight>
         </AnimatePresence>
