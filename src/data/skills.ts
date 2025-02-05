@@ -6,6 +6,7 @@ import { SiExpress, SiNextdotjs, SiPrisma } from "react-icons/si";
 import CsssSvg from "@/public/icons/css.svg";
 import HtmlSvg from "@/public/icons/html.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
+import OpenAISvg from "@/public/icons/openai.svg";
 // import PythonSvg from "@/public/icons/python.svg";
 // import SassSvg from "@/public/icons/sass.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
@@ -134,6 +135,20 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Git",
         icon: GitSvg,
       },
+
+      {
+        name: "Postman",
+        icon: PostmanSvg,
+      },
+    ],
+  },
+  {
+    sectionName: "Exploring",
+    skills: [
+      {
+        name: "Open AI",
+        icon: OpenAISvg,
+      },
       {
         name: "Docker",
         icon: DockerSvg,
@@ -141,10 +156,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "AWS",
         icon: AwsSvg,
-      },
-      {
-        name: "Postman",
-        icon: PostmanSvg,
       },
     ],
   },
