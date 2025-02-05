@@ -1,6 +1,6 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+// import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -68,44 +68,39 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://shopr-rho.vercel.app",
   },
   {
-    name: "Kanban app",
+    name: "University Management System",
     favicon: "/images/projects/logos/university.png",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/uni2.png",
+      "/images/projects/uni1.png",
+      "/images/projects/uni3.png",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "A comprehensive university management app designed to streamline academic operations. It supports three user roles: Admin, Faculty, and Student, each with role-specific functionalities.",
+    sourceCodeHref:
+      "https://github.com/mehrabhossain1/university-management-frontend",
+    liveWebsiteHref: "https://university-management-swart-rho.vercel.app",
   },
   {
-    name: "Many Games",
+    name: "At-Taqwa IT Agency",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/attaqwa1.png",
+      "/images/projects/attaqwa2.png",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "A modern and dynamic IT agency website showcasing services, projects, and expertise. Built with an engaging UI and smooth animations using Framer Motion for an interactive user experience.",
+    sourceCodeHref: "https://github.com/mehrabhossain1/At-Taqwa-IT",
+    liveWebsiteHref: "https://at-taqwa-it.vercel.app",
   },
   {
     name: "My portfolio",
     favicon: "/logo.gif",
-    imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
-    ],
+    imageUrl: ["/images/projects/port1.png", "/images/projects/port2.png"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+    sourceCodeHref: "https://github.com/mehrabhossain1/mehrabhossainportfolio",
+    liveWebsiteHref: "https://mehrab-hossain.vercel.app",
   },
   {
     name: "Covid Tracker",
