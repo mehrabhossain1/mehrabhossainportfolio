@@ -55,19 +55,21 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Shopr - Ecommerce",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/shopr.png",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/shopr.webp",
+      "/images/projects/shopr2.png",
+      "/images/projects/shopr3.png",
+      "/images/projects/shopr4.png",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "A modern e-commerce web application with seamless payment integration. Users can browse products, add items to their cart, and securely complete purchases. Built with a responsive design for a smooth shopping experience on any device",
+    sourceCodeHref: "https://github.com/mehrabhossain1/shopr",
+    liveWebsiteHref: "https://shopr-rho.vercel.app",
   },
   {
     name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "/images/projects/logos/university.png",
     imageUrl: [
       "/images/projects/kanbanLight.webp",
       "/images/projects/kanbanDark.webp",
