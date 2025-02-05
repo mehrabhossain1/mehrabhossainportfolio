@@ -59,10 +59,16 @@ export default function LandingHero() {
               </div>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.4}>
-              <button className="mt-7 inline-block rounded-full border border-accent px-8 py-3 text-base font-semibold text-accent transition-colors duration-150 hover:bg-accent/80 hover:text-white">
-                <TbFileCv className="mr-2 inline-block" size={20} />
-                Resume
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1oo04CQ1h7TbRl-lS3zJqHXEbllzIbFoK/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-7 inline-block rounded-full border border-accent px-8 py-3 text-base font-semibold text-accent transition-colors duration-150 hover:bg-accent/80 hover:text-white">
+                  <TbFileCv className="mr-2 inline-block" size={20} />
+                  Resume
+                </button>
+              </a>
             </FadeUp>
           </AnimatePresence>
         </div>
