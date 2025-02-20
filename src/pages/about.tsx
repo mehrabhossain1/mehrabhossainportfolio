@@ -12,18 +12,18 @@ export default function About() {
       <NextSeo
         title="About Mehrab Hossain | Frontend Developer"
         description="Learn more about Mehrab Hossain, a dedicated Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
-        canonical={`${siteMetadata.siteUrl}/about`}
+        // canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
-          url: `${siteMetadata.siteUrl}/about`,
+          // url: `${siteMetadata.siteUrl}/about`,
           title: "Learn About Mehrab Hossain - Frontend Developer",
           description:
             "Dive into the story of Mehrab Hossain, a Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Mehrab Hossain - Portfolio Image",
-            },
-          ],
+          // images: [
+          //   {
+          //     // url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+          //     alt: "Mehrab Hossain - Portfolio Image",
+          //   },
+          // ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}
